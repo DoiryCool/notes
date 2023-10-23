@@ -41,3 +41,18 @@ $$\theta_{i} = \theta_{i-1} - \alpha * \nabla J_{\theta}(\theta_{i-1})$$
 $$\theta_{i} = \theta_{i-1} - 0.2 * 2\theta_{i-1}$$
 `注：梯度的方向指的是指定点上升最快的方向，是上升`
 ![](images/gd3.png)
+下面为$y = x^{2} + b$的运算。
+```python
+x = 6.0
+learning_rate = 0.1
+num_iterations = 100
+
+for i in range(num_iterations):
+    gradient = 2 * x
+    x = x - learning_rate * gradient
+    y = x ** 2
+    print(f"Iteration {i + 1}: x = {x}, y = {y}")
+
+print("最终结果：")
+print(f"x = {x}, y = {y}")
+```
