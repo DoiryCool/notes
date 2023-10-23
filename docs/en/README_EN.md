@@ -1,6 +1,6 @@
 # Bugger's Notes
 
-[![Documentation Status](https://readthedocs.org/projects/notesdoiry/badge/?version=latest)](https://notesdoiry.readthedocs.io/en/latest/?badge=latest) [中文](./README.md) | English
+[![Documentation Status](https://readthedocs.org/projects/notesdoiry/badge/?version=latest)](https://notesdoiry.readthedocs.io/en/latest/?badge=latest) [中文](../README.md) | English
 
 Deployed at this [website](https://notesdoiry.readthedocs.io/).
 

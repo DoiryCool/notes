@@ -12,7 +12,8 @@
 
 首先利用最远点采样FPS提取出4个点，然后利用K近邻算法、球状邻域查询算法或其他算法划出每个点的邻域，然后利用PointNet网络提取特征。
 ![](./images/++1.png)
-上面的步骤叫做 `Set Abstracion`，PointNet++编码器使用了四个Set Abstracion模块，在这个过程中不断减少点的数量，并且增加通道数，是不是很像卷积神经网络的过程。
+上面的步骤叫做 `Set Abstracion`，PointNet++编码器使用了四个Set Abstracion模块，在这个过程中不断减少点的数量，并且增加通道数，是不是很像卷积神经网络的过程。  
+
 ![](images/++2.png)
 
 ### 点云分割
