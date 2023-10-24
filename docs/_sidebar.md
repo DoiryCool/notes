@@ -28,6 +28,7 @@
 * [Web | 网页工程](Web/)
 * [Linux | 操作系统](Linux/)
   * [Wget](Linux/wget/wget.md)
+  * [SSH](Linux/SSH/ssh.md)
 * [OpenCV | 计算机视觉](OpenCV/)
   * Projects
     * [Traffic-light-recognition](OpenCV/Projects/Traffic-light-recognition/Traffic-light-recognition.md)
