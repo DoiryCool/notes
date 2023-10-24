@@ -29,6 +29,7 @@
 * [Linux | 操作系统](Linux/)
   * [Wget](Linux/wget/wget.md)
   * [SSH](Linux/SSH/ssh.md)
+  * [Vim](Linux/vim/vim.md)
 * [OpenCV | 计算机视觉](OpenCV/)
   * Projects
     * [Traffic-light-recognition](OpenCV/Projects/Traffic-light-recognition/Traffic-light-recognition.md)
@@ -39,13 +40,13 @@
       * [02.C++ Programming Basics](Hardware/ArduinoTutorial/Part-1%20Arduino%20Programming%20Basics/02.C++%20Programming%20Basics.md)
       * [03.Getting Started](Hardware/ArduinoTutorial/Part-1%20Arduino%20Programming%20Basics/03.Getting%20Started.md)
     * Part-2 Some Basic Knowledges
-      * [04.PWM What's this](Hardware/ArduinoTutorial/Part-2%20Some%20Basic%20Knowledges/04.PWM%20What's%20this.md)
+      * [04.PWM What&#39;s this](Hardware/ArduinoTutorial/Part-2%20Some%20Basic%20Knowledges/04.PWM%20What's%20this.md)
       * [05.Oh,Interrupt,interrupt what this](Hardware/ArduinoTutorial/Part-2%20Some%20Basic%20Knowledges/05.Oh,Interrupt,interrupt%20what%20this.md)
       * [06.Communication,get your Arduino a friend!](Hardware/ArduinoTutorial/Part-2%20Some%20Basic%20Knowledges/06.Communication,get%20your%20Arduino%20a%20friend!.md)
     * Part-3 Sensors you should know
       * [07.Ultrasonic sensor,a little cool](Hardware/ArduinoTutorial/Part-3%20Sensors%20you%20should%20know/07.Ultrasonic%20sensor,a%20little%20cool.md)
       * [08.Motor Control!A great step to a small goal!](Hardware/ArduinoTutorial/Part-3%20Sensors%20you%20should%20know/08.Motor%20Control!A%20great%20step%20to%20a%20small%20goal!.md)
-      * [09.It's time to show!](Hardware/ArduinoTutorial/Part-3%20Sensors%20you%20should%20know/09.It's%20time%20to%20show!.md)
+      * [09.It&#39;s time to show!](Hardware/ArduinoTutorial/Part-3%20Sensors%20you%20should%20know/09.It's%20time%20to%20show!.md)
 * [Language | 编程语言](Language/)
   * C++
     * [新人](Language/1-C++/FreshCoder.md)
