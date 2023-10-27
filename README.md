@@ -1,41 +1,19 @@
-# Website
+# 不成功编程人的笔记
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+[![Documentation Status](https://readthedocs.org/projects/notesdoiry/badge/?version=latest)](https://notesdoiry.readthedocs.io/en/latest/?badge=latest) 中文 | [English](./en/README_EN.md)
 
-### Installation
+部署在该[网站](https://notesdoiry.readthedocs.io/)。
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+| 内容                  |                    |         |
+| --------------------- | ------------------ | ------- |
+| ROS                   |                    |         |
+| Algorithms                  | 算法 |         |
+| SLAM                  | 同时定位与地图构建 |         |
+| Reinforcemen-Learning | 强化学习           |         |
+| Algorithms            | 算法               |         |
+| Network               | 网络工程           |         |
+| Web                   | 网页工程           |         |
+| Linux                 |                    |         |
+| Hardware              | 硬件               | Arduino |
+| Programme Language    | 编程语言           |         |
+| ToolKits              | 工具们             |         |
