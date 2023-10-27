@@ -7,4 +7,5 @@ services:
     volumes:
       - ./:/app  # 映射 Docusaurus 项目文件夹到容器中的 /app 文件夹
     working_dir: /app  # 设置工作目录
-    command: npm start  # 设置容器启动时执行的命令
+    command: >
+      sh -c "npm install && npm start"
