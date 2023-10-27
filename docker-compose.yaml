@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  docusaurus:
+    image: node:18.12-slim
+    ports:
+      - "8180:3000"  # 将容器的 3000 端口映射到宿主机的 8180 端口
+    volumes:
+      - ./:/app  # 映射 Docusaurus 项目文件夹到容器中的 /app 文件夹
+    working_dir: /app  # 设置工作目录
+    command: npm start  # 设置容器启动时执行的命令

@@ -1,6 +1,6 @@
 # 不成功编程人的笔记
 
-[![Documentation Status](https://readthedocs.org/projects/notesdoiry/badge/?version=latest)](https://notesdoiry.readthedocs.io/en/latest/?badge=latest) 中文 | [English](./en/README_EN.md)
+[![Documentation Status](https://readthedocs.org/projects/notesdoiry/badge/?version=latest)](https://notesdoiry.readthedocs.io/en/latest/?badge=latest)
 
 部署在该[网站](https://notes.doiry.cn/)。
 
