@@ -4,7 +4,6 @@
 * [ROS | 机器人操作系统](ROS/)
   * [Installation | 安装](ROS/installation.md)
 * [SLAM | 同时定位与建图](SLAM/)
-  * [Gradient Descent | 梯度下降法](SLAM/Gradient%20Descent/Gradient%20descent.md)
   * [Ceres | 非线性优化](SLAM/ceres.md)
   * PointCloud | 点云
     * [FPS | 最远点采样](SLAM/PointCloud/PointNet++/FPS.md)
@@ -15,7 +14,10 @@
 * [Reinforcemen-Learning | 强化学习](Reinforcemen-Learning/)
   * [基础知识](Reinforcemen-Learning/1-Base/writeAhead.md)
 * [Algorithms | 数据结构与算法](Algorithms/)
-  * [A* | 路径规划算法](Algorithms/A*.md)
+  * Search Algorithms | 搜索算法
+    * [A* | 路径规划算法](Algorithms/Search%20Algorithms/A*.md)
+  * Optimization Algorithms | 优化算法
+    * [Gradient Descent | 梯度下降法](Algorithms/Optimization%20Algorithms/Gradient%20Descent/Gradient%20descent.md)
   * [Kalman Filter | 卡尔曼滤波](Algorithms/Kalman.md)
   * [PCA | 主成分分析法](Algorithms/PCA.md)
   * [PID | 控制算法](Algorithms/PID.md)
