@@ -34,6 +34,17 @@ const config = {
     locales: ['en', 'zh-CN'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'papers',
+        path: 'docs/papers',
+        routeBasePath: 'papers',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+  ],
   presets: [
     
     [
@@ -43,10 +54,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          path: 'docs/notes',
+          routeBasePath: 'notes',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/DoiryCool/notes/tree/main/docs/',
+            'https://github.com/DoiryCool/notes/tree/main/docs/notes',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
@@ -61,6 +74,7 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
+      
     ],
   ],
   stylesheets: [
@@ -91,6 +105,14 @@ const config = {
             label: '笔记',
           },
           {to: '/blog', label: '博客', position: 'left'},
+          {
+            docsPluginId: 'papers',
+            type: 'doc',
+            docId: 'README',
+            sidebarId: 'paperSidebar',
+            position: 'left',
+            label: '论文',
+          },
           {
             href: 'https://github.com/DoiryCool/notes',
             label: 'GitHub',
