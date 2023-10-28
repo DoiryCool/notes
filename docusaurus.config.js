@@ -59,7 +59,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/DoiryCool/notes/tree/main/docs/notes',
+            'https://github.com/DoiryCool/notes/tree/main',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
@@ -68,7 +68,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/DoiryCool/notes/tree/main/blog/',
+            'https://github.com/DoiryCool/notes/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -102,6 +102,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
+            docId: 'README',
             label: '笔记',
           },
           {to: '/blog', label: '博客', position: 'left'},

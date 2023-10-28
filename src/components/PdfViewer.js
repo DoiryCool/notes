@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Document, Page, pdfjs } from '@react-pdf/renderer';
+import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.min';
+
 
 const PdfViewer = ({ url }) => {
     const [numPages, setNumPages] = useState(null);
@@ -14,6 +16,7 @@ const PdfViewer = ({ url }) => {
             <Document
                 file={url}
                 onLoadSuccess={onDocumentLoadSuccess}
+                options={{ workerSrc: pdfjsWorker }}
             >
                 <Page pageNumber={pageNumber} />
             </Document>

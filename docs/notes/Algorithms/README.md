@@ -2,6 +2,7 @@
 id: doc-with-tags
 slug: /Algorithms
 title: Algorithms | 算法
+position: 1
 tags:
   - 动态规划
   - 机器学习
