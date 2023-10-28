@@ -30,8 +30,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: 'zh-CN',
+    locales: ['en', 'zh-CN'],
   },
 
   presets: [
@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/DoiryCool/notes/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/DoiryCool/notes/tree/main/docs/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
@@ -55,7 +55,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/DoiryCool/notes/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/DoiryCool/notes/tree/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
