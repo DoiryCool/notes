@@ -9,7 +9,7 @@ const katex = require('rehype-katex');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Jerry Gu\'s Sites',
-  tagline: 'Dinosaurs are cool',
+  tagline: '顾俊玮的主页',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -81,7 +81,7 @@ const config = {
         title: '主页',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/snowfox.png',
         },
         items: [
           {
@@ -118,7 +118,7 @@ const config = {
             title: 'Resources',
             items: [
               {
-                label: 'VistaLab',
+                label: 'VistaLab | 远景实验室',
                 href: 'https://www.vistalab.top/',
               },
               {

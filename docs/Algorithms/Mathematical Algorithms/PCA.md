@@ -1,3 +1,9 @@
+---
+id: PCA
+title: PCA | 主成分分析法
+tags:
+  - Algorithms
+---
 # PCA | 主成分分析法
 PCA主要用于数据的降维，下图中把二维的信息转换到一维：
 ![](images/pca.png)
