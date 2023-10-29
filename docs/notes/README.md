@@ -1,14 +1,10 @@
-# 不成功编程人的笔记
+# 推荐
 
-[![Documentation Status](https://readthedocs.org/projects/notesdoiry/badge/?version=latest)](https://notesdoiry.readthedocs.io/en/latest/?badge=latest)
-
-部署在该[网站](https://notes.doiry.cn/)。
-
-| 内容                  |                    |         |
+| 内容                  |        推荐指数            |   推荐理由      |
 | --------------------- | ------------------ | ------- |
-| ROS                   |                    |         |
-| Algorithms                  | 算法 |         |
-| SLAM                  | 同时定位与地图构建 |         |
+| [CMake  \| 编译工具](./ToolKits/Cmake.md)                |      ☆☆☆☆☆          |    基础     |
+| Algorithms  \|算法          | ☆☆☆☆☆ |   你总得会一点    |
+| SLAM                  | ☆☆ |         |
 | Reinforcemen-Learning | 强化学习           |         |
 | Algorithms            | 算法               |         |
 | Network               | 网络工程           |         |
