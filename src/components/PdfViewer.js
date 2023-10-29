@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-
-const PdfViewer = ({ url }) => {
+const PdfViewer = ({ pdfUrl }) => {
     return (
-        <div>
-            <embed src={url} type="application/pdf" width="100%" height="1200px" />
+        <div style={{ width: '100%', height: '800px' }}>
+            <iframe
+                title="PDF Viewer"
+                src={pdfUrl}
+                width="100%"
+                height="100%"
+            ></iframe>
         </div>
     );
 };
