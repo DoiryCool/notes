@@ -1,5 +1,4 @@
 ---
-id: base
 title: 01 - Basic | 基础知识
 tags:
   - Reinforcement Learning
