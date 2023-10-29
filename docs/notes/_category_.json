@@ -1,6 +1,5 @@
 {
-  "label": "ToolKits | 工具",
-  "position": 11,
+  "label": "OpenCV | 计算机视觉",
   "link": {
     "type": "generated-index"
   }

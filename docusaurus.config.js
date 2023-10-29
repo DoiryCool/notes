@@ -8,7 +8,7 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Jerry Gu\'s Sites',
+  title: 'Jerry Gu\'s Site',
   tagline: '顾俊玮的主页',
   favicon: 'img/favicon.ico',
 

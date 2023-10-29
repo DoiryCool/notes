@@ -1,5 +1,5 @@
 ---
-id: doc-with-tags
+id: README
 slug: /Algorithms
 title: Algorithms | 算法
 position: 1
@@ -9,9 +9,10 @@ tags:
   - 优化算法
   - 数据结构
 ---
-
 # 算法
+
 本章主要是介绍各种常见的算法、包括传统算法、机器学习的算法、工程中使用的算法等等。
+
 - [KF | 卡尔曼滤波](./Estimation%20Algorithm/Kalman.md)
   - EKF | 扩展卡尔曼滤波
   - UKF | 无迹卡尔曼滤波

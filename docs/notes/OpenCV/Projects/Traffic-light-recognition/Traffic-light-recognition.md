@@ -1,3 +1,8 @@
+---
+title: Traffic Light Recognition | 交通灯识别
+tags:
+  - OpenCV
+---
 ## 数据加载
 首先从文件读取数据，并根据交通灯颜色分类，然后进行数据显示。
 ```python

@@ -1,3 +1,9 @@
+---
+title: Vim | 编辑器
+tags:
+  - Linux
+  - Vim
+---
 # Vim 常用操作
 
 ## 基本移动

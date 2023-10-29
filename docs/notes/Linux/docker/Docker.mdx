@@ -1,0 +1,63 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Docker | 容器
+## Docker 的基本流程和操作
+### 1. 安装 Docker
+<Tabs>
+<TabItem value="bash" label="Linux">
+
+```bash
+sudo apt install docker -y
+```
+
+</TabItem>
+<TabItem value="Windows" label="Windows">
+去官网下载。
+</TabItem>
+<TabItem value="Mac" label="Mac">
+
+我没有Mac。
+
+</TabItem>
+</Tabs>  
+
+   
+### 2. 运行 Docker 容器
+   - 使用 `docker run` 命令来在容器中运行一个镜像。
+     例如：`docker run ubuntu:latest`
+   
+### 3. 管理 Docker 镜像
+   - 检查本地镜像列表：`docker images`
+   - 从 Docker Hub 下载镜像：`docker pull image_name`
+   - 删除本地镜像：`docker rmi image_name`
+   
+### 4. 管理 Docker 容器
+   | **命令**                               | **描述**                                             |
+|-----------------------------------|--------------------------------------------------|
+| `docker ps`                       | 列出正在运行的容器。                                  |
+| `docker ps -a`                   | 列出所有容器，包括已停止的。                         |
+| `docker start <container_id>`     | 启动已停止的容器。                                   |
+| `docker stop <container_id>`      | 停止运行中的容器。                                   |
+| `docker restart <container_id>`   | 重新启动容器。                                       |
+| `docker exec -it <container_id> /bin/bash` | 进入正在运行的容器并开启交互式 shell。   |
+| `docker rm <container_id>`        | 删除一个容器。                                       |
+| `docker logs <container_id>`      | 查看容器的日志输出。                                 |
+| `docker inspect <container_id>`   | 获取容器的详细信息，以 JSON 格式显示。              |
+| `docker stats <container_id>`     | 显示容器的资源利用情况。                            |
+
+   
+### 5. 构建 Docker 镜像
+   - 创建 Dockerfile 来定义镜像的构建过程。
+   - 使用 `docker build` 命令来基于 Dockerfile 构建镜像。
+     例如：`docker build -t my_image .`
+   
+### 6. Docker 网络
+   - 默认网络：`docker network ls`
+   - 创建网络：`docker network create network_name`
+   - 连接容器到网络：`docker network connect network_name container_name`
+   
+### 7. Docker 卷
+   - 创建卷：`docker volume create volume_name`
+   - 查看卷列表：`docker volume ls`
+   - 挂载卷到容器：`docker run -v volume_name:/container/path image_name`
