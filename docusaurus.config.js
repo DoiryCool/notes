@@ -44,6 +44,15 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'diaries',
+        path: 'docs/diaries',
+        routeBasePath: 'diaries',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
   ],
   presets: [
     
@@ -100,7 +109,7 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'noteSidebar',
             position: 'left',
             docId: 'README',
             label: '笔记',
@@ -114,6 +123,14 @@ const config = {
             position: 'left',
             label: '论文',
           },
+          // {
+          //   docsPluginId: 'diaries',
+          //   type: 'doc',
+          //   docId: 'README',
+          //   sidebarId: 'diarySidebar',
+          //   position: 'left',
+          //   label: '日记',
+          // },
           {
             href: 'https://github.com/DoiryCool/notes',
             label: 'GitHub',

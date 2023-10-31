@@ -3,7 +3,7 @@ title: PID Controller | PID控制器
 tags:
   - Algorithms
 ---
-# PID Controller（PID控制器）
+# PID
 
 PID控制器是一种用于控制系统的反馈控制环路，它通过比较实际输出和期望输出来调整输入。PID控制器由比例（Proportional）、积分（Integral）、和微分（Derivative）三部分组成。
 

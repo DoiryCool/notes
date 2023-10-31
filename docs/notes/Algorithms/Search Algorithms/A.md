@@ -1,10 +1,9 @@
 ---
-id: A*
-title: A Star | A*算法
+title: A Star Algorithm| A*算法
 tags:
   - Algorithms
 ---
-# A* Algorithm（A*算法）
+# A Star Algorithm
 A*（A星）算法是一种启发式搜索算法，用于在图中找到最佳路径。它结合了Dijkstra算法的最短路径和贪婪最优搜索策略。  
 $f = g + h$  ， $g$为已经过路径的代价，$h$为启发函数，计算当前位置到达目的地的代价，常用的距离有曼哈顿距离，欧氏距离  
 
