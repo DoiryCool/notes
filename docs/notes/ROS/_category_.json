@@ -2,6 +2,7 @@
   "label": "ROS | 机器人操作系统",
   "position": 4,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "README"
   }
 }
