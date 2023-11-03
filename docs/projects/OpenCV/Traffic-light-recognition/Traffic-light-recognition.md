@@ -3,7 +3,7 @@ title: Traffic Light Recognition | 交通灯识别
 tags:
   - OpenCV
 ---
-## 数据加载
+## 一、数据加载
 首先从文件读取数据，并根据交通灯颜色分类，然后进行数据显示。
 ```python
 red_images = [img for img in IMAGE_LIST if img[1]=='red']
@@ -21,7 +21,7 @@ ax3.set_title(green_images[0][1])
 ```
 原始图片数据
 ![](images/raw.jpg)
-## 数据预处理
+## 二、数据预处理
 图片存在下面的问题：
 - 尺寸不统一
 - 亮度不一致  
@@ -69,7 +69,7 @@ STANDARDIZED_LIST = standardize(IMAGE_LIST)
 打印图片看看效果
 ![](images/afterp.jpg)
 
-## 特征提取
+## 三、特征提取
 我们可以从`亮度特征`和`色彩特征`两方面入手。
 ### 亮度特征
 首先将图片转换成HSV颜色空间。
@@ -95,8 +95,9 @@ v = hsv[:,:,2]
 ```
 ![](images/hsv.jpg)
 可以看到上图中`Value`对于图像的辨识度最高，因此选取`Value`作为特征。
-![](images/afterhsv.png)
-至此，我们已经基本可以通过亮度特征确定了。
+![](images/afterhsv.png)  
+
+至此，我们已经基本可以通过亮度特征确定了。  
 
 ### 色彩特征
 相比RGB，HSV空间更接近与人们对真实感知，因此我们让采用HSV空间进行色彩过滤，然后将三种颜色的对应的部分提取出来，计算像素点判断颜色
@@ -165,5 +166,5 @@ def create_feature_color(rgb_image):
     
 ```
 
-## 图像分类
+## 四、图像分类
 之后再写。
