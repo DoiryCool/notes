@@ -1,10 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const math = require('remark-math');
-const katex = require('rehype-katex');
+import {themes as prismThemes} from 'prism-react-renderer';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -41,7 +39,7 @@ const config = {
         id: 'papers',
         path: 'docs/papers',
         routeBasePath: 'papers',
-        sidebarPath: require.resolve('./sidebars.js'),
+        sidebarPath: './sidebars.js',
       },
     ],
     [
@@ -50,7 +48,16 @@ const config = {
         id: 'diaries',
         path: 'docs/diaries',
         routeBasePath: 'diaries',
-        sidebarPath: require.resolve('./sidebars.js'),
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'projects',
+        path: 'docs/projects',
+        routeBasePath: 'projects',
+        sidebarPath: './sidebars.js',
       },
     ],
   ],
@@ -62,15 +69,14 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.js',
           path: 'docs/notes',
           routeBasePath: 'notes',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/DoiryCool/notes/tree/main',
-          remarkPlugins: [math],
-          rehypePlugins: [katex],
+          editUrl:'https://github.com/DoiryCool/notes/tree/main',
+            remarkPlugins: [remarkMath],
+            rehypePlugins: [rehypeKatex],
         },
         blog: {
           showReadingTime: true,
@@ -115,6 +121,14 @@ const config = {
             label: '笔记',
           },
           {to: '/blog', label: '博客', position: 'left'},
+          {
+            docsPluginId: 'projects',
+            type: 'doc',
+            docId: 'README',
+            sidebarId: 'projectSidebar',
+            position: 'left',
+            label: '项目',
+          },
           {
             docsPluginId: 'papers',
             type: 'doc',
@@ -184,8 +198,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Notes, Jerry Gu. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.dracula,
         
       },
       

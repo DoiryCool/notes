@@ -21,7 +21,7 @@ plt.show()
 $$y'_{i} = \sum_{i=1}^{n}\theta_{i}*x_{i} + \theta_{0}$$
   
 那么如何表示函数的拟合程度呢？对啰，求各点到直线的距离，得到的函数我们叫做损失函数  
-`Loss Function`:$$J_{\theta} = \frac{1}{n} \sum_{i=1}^{n}(y'_{i}- y_{i})^{2}$$  
+`Loss Function`:  $$J_{\theta} = \frac{1}{n} \sum_{i=1}^{n}(y'_{i}- y_{i})^{2}$$  
 
 
 梯度下降就是求出一组$\theta$，使得损失函数最小，得到拟合的最优解。
