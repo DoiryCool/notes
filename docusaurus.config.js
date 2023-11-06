@@ -68,6 +68,10 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        gtag: {
+          trackingID: 'G-6QSZNZ2N1G',
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: './sidebars.js',
           path: 'docs/notes',
@@ -195,7 +199,8 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Notes, Jerry Gu. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Notes, Jerry Gu. Built with Docusaurus. <br\> 顾俊玮 <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2022012206号-3</a>`,
+        
       },
       prism: {
         theme: prismThemes.dracula,
