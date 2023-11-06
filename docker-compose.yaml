@@ -3,7 +3,7 @@ services:
   docusaurus:
     image: node:18.12-slim
     ports:
-      - 8180:3000
+      - 8080:3000
     volumes:
       - ./:/home/app
     working_dir: /home/app

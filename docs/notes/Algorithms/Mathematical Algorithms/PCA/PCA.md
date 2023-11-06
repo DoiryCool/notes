@@ -19,7 +19,7 @@ PCA主要用于数据的降维，下图中把二维的信息转换到一维：
 
 :::info
 
-关于**协方差**请点击[协方差](../../Math/Linear%20Algebra/cov.md).
+关于**协方差**请点击[协方差](../../../Math/Linear%20Algebra/cov.md).
 
 :::
 
