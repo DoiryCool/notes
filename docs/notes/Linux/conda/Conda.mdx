@@ -1,0 +1,33 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Anaconda | Python容器
+## Anaconda 的基本流程和操作
+### 1. 安装 Anaconda
+<Tabs>
+<TabItem value="bash" label="Linux">
+一键安装
+```bash
+curl -sSL https://repo.doiry.cn/scripts/anaconda-install.sh | bash
+```
+
+</TabItem>
+<TabItem value="Windows" label="Windows">
+去官网下载。
+</TabItem>
+<TabItem value="Mac" label="Mac">
+
+我没有Mac。
+
+</TabItem>
+</Tabs>  
+
+### 2. 创建环境
+```bash
+conda create -n envName python=3.8
+```
+
+### 3. 进入环境
+```bash
+conda activate envName
+```
